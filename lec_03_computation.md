@@ -262,7 +262,7 @@ print([f"XOR({a},{b})={XOR(a,b)}" for a in [0,1] for b in [0,1]])
 ::: {.solvedexercise title="Compute $XOR$ on three bits of input" #xorthreebits}
 Let $XOR_3:\{0,1\}^3 \rightarrow \{0,1\}$ be the function defined as $XOR_3(a,b,c) = a + b +c \mod 2$. That is, $XOR_3(a,b,c)=1$ if $a+b+c$ is odd, and $XOR_3(a,b,c)=0$ otherwise.
 Show that you can compute $XOR_3$ using AND, OR, and NOT.
-You can express it as a forumla, use a programming language such as Python, or use a Boolean circuit.
+You can express it as a formula, use a programming language such as Python, or use a Boolean circuit.
 :::
 
 ::: {.solution data-ref="xorthreebits"}
